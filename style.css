@@ -509,7 +509,7 @@ a {
     object-fit: cover;
 }
 
-.ucl-badge {
+.kcl-badge {
     position: absolute;
     bottom: -16px;
     right: 0;
@@ -1313,21 +1313,21 @@ body.modal-open {
     animation: slideInRight 0.7s ease 0.15s both;
 }
 
-.ucl-box {
+.kcl-box {
     padding: 1rem;
     border-radius: 0.75rem;
     border: 1px solid rgba(var(--accent-rgb), 0.2);
     background-color: rgba(var(--accent-rgb), 0.05);
 }
 
-.ucl-label {
+.kcl-label {
     font-family: 'JetBrains Mono', monospace;
     font-size: 0.75rem;
     color: var(--accent);
     margin-bottom: 0.25rem;
 }
 
-.ucl-title {
+.kcl-title {
     font-weight: 600;
     color: white;
     font-size: 0.875rem;
@@ -1335,7 +1335,7 @@ body.modal-open {
     font-family: 'DM Sans', sans-serif;
 }
 
-.ucl-subtitle {
+.kcl-subtitle {
     font-size: 0.75rem;
     color: rgba(255, 255, 255, 0.5);
 }
