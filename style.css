@@ -456,7 +456,7 @@ a {
 
 @media (min-width: 1024px) {
     .about-grid {
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 0.9fr 1.1fr;
     }
 }
 
@@ -584,6 +584,10 @@ a {
     color: rgba(255, 255, 255, 0.7);
     margin-bottom: 1.25rem;
     line-height: 1.8;
+}
+
+.about-paragraphs p {
+    text-wrap: pretty;
 }
 
 .skills-grid {
